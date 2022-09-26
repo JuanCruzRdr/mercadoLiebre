@@ -1,0 +1,103 @@
+/* ● Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+ 
+● Tipografías
+Familia: 'Roboto'
+Nos envían esta demo de cómo cargar fuentes de Google Fonts. Además
+podemos consultar el siguiente recurso aquí, para más detalle.
+● Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+header { background-color: #EAC926; 
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+    padding: 10px; 
+}
+
+header ul li{
+    list-style-type: none;
+}
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px; }
+
+    header .form .submit{
+        background-color: #FFF;
+        border: 1px solid #000;
+        color: #666;
+        width: 10%;
+    }
+
+    div.burger-menu i{
+        background-color: #0044AA;
+        border-radius: 5px;
+        color: #FFF;
+        font-size: 35px;
+        height: 40px;
+        margin: 10px 0px 20px 0px;
+        padding: 10px;
+        width: 30px;
+    }
+
+
+.burger-menu {
+    text-align: center;
+    color: #03264C;
+} 
+
+body { font-size: 12px;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #EAC926;
+}
+
+.textotitulares { font-size: 24px;
+}
+
+.textotitulares2 { font-size: 24px;
+    text-align: center;
+}
+
+.textoprecios { font-size: 18px;
+}
+
+.textodescuentos {font-size: 16px;}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+h5 { text-align: left;}
+
+main { position: center;
+       width: 90%;
+       background-color:  #ebebeb;
+}
+
+.divisionarticulos {
+    padding: 10px;
+}
+
+article div.main-article{
+    flex-direction: row;
+}
